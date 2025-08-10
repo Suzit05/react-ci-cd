@@ -30,5 +30,10 @@ jobs:
 
             - name: "List depositories"
               run:  ls
+
+            - name: "Run test"
+              run:  npm test
             
+            - name: "Run build"
+              run:   npm run build
            
