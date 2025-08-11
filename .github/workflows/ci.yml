@@ -31,11 +31,14 @@ jobs:
             - name: "List depositories"
               run:  ls
 
+            - name: "Run lint"
+              run:  npm run lint
+
             - name: "Run test"
               run:  npm test
             
             - name: "Run build"
               run:   npm run build
 
-              #41:48
+            
            
